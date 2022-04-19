@@ -3,7 +3,7 @@
 A basic memory game. It was useful to improve and understand a bit more about React.
 Later on I migth add a winner screen and some sounds to this game.
 
-[Check it out]()
+[Check it out](https://jfilipeferreira96.github.io/RPG-Style-Memory-Game/)
 
 # Getting Started with Create React App
 
