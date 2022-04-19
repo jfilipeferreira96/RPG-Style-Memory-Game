@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RPG-Style-Memory-Game/static/css/main.a2f20d5a.css",
+    "main.js": "/RPG-Style-Memory-Game/static/js/main.0ba2bca2.js",
+    "index.html": "/RPG-Style-Memory-Game/index.html",
+    "main.a2f20d5a.css.map": "/RPG-Style-Memory-Game/static/css/main.a2f20d5a.css.map",
+    "main.0ba2bca2.js.map": "/RPG-Style-Memory-Game/static/js/main.0ba2bca2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2f20d5a.css",
+    "static/js/main.0ba2bca2.js"
+  ]
+}
