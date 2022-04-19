@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "./static/css/main.a2f20d5a.css",
-    "main.js": "./static/js/main.3d090ed6.js",
-    "index.html": "./index.html",
-    "main.a2f20d5a.css.map": "./static/css/main.a2f20d5a.css.map",
-    "main.3d090ed6.js.map": "./static/js/main.3d090ed6.js.map"
+    "main.css": "/RPG-Style-Memory-Game/static/css/main.a2f20d5a.css",
+    "main.js": "/RPG-Style-Memory-Game/static/js/main.591ee087.js",
+    "index.html": "/RPG-Style-Memory-Game/index.html",
+    "main.a2f20d5a.css.map": "/RPG-Style-Memory-Game/static/css/main.a2f20d5a.css.map",
+    "main.591ee087.js.map": "/RPG-Style-Memory-Game/static/js/main.591ee087.js.map"
   },
   "entrypoints": [
     "static/css/main.a2f20d5a.css",
-    "static/js/main.3d090ed6.js"
+    "static/js/main.591ee087.js"
   ]
 }
