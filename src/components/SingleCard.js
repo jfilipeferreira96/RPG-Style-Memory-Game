@@ -11,8 +11,8 @@ export default function SingleCard({ card, handleChoice, flipped, disabled }) {
     return (
         <div className="card">
             <div className={flipped ? "flipped" : ''}>
-                <img src={'RPG-Style-Memory-Game' + card.src} className="front" alt="Card Front" />
-                <img src="RPG-Style-Memory-Game/img/cover-1.png" className="cover" alt="Card Cover" onClick={ handleClick }/>
+                <img src={ card.src} className="front" alt="Card Front" />
+                <img src="/img/cover-1.png" className="cover" alt="Card Cover" onClick={ handleClick }/>
             </div>
         </div>  
     );
