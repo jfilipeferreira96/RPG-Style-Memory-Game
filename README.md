@@ -2,7 +2,11 @@
 
 A basic memory game. It was useful to improve and understand a bit more about React.
 
-[Check it out](https://jfilipeferreira96.github.io/RPG-Style-Memory-Game/)
+## [Check it out](https://jfilipeferreira96.github.io/RPG-Style-Memory-Game/)
+
+<p align="center">
+  <img alt="APP Layout" width="50%" src="./public/img/app.PNG" />
+</p>
 
 # Getting Started with Create React App
 
