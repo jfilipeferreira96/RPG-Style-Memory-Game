@@ -6,10 +6,10 @@ import WinningModal from "./components/WinningModal";
 const cardImages = [
   { src: "./img/1.png", matched: false },
   { src: "./img/2.png", matched: false },
-  { src: "./img/3.png", matched: false },
+  /*{ src: "./img/3.png", matched: false },
   { src: "./img/4.png", matched: false },
   { src: "./img/5.png", matched: false },
-  { src: "./img/6.png", matched: false },
+  { src: "./img/6.png", matched: false },*/
 ];
 
 function App() {
@@ -57,26 +57,22 @@ function App() {
           });
         });
 
-        setTimeout(() => resetTurn(), matchOverVerification(), 1000);
+        setTimeout(() => resetTurn(), 1000);
       } else {
         setTimeout(() => resetTurn(), 1000);
       }
     }
   }, [choiceOne, choiceTwo]);
 
-  const matchOverVerification = () => {
-    let counter = 0;
-    cards.forEach((card) => {
-      if (card.matched === false) {
-        counter++;
-      }
-    });
+  useEffect(() => {
+    if (cards.length > 0) {
+      const verification = (card) => card.matched === true;
 
-    if (counter === 2) {
-      //shuffleCards();
-      setModalOpen(true);
+      if (cards.every(verification)) {
+        setTimeout(() => setModalOpen(true), 1000);
+      }
     }
-  };
+  }, [cards]);
 
   // reset choices and increase turn
   const resetTurn = () => {
